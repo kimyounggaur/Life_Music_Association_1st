@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 
+export const dynamic = "force-static";
+
 const routes = ["", "/about", "/courses", "/courses/level", "/courses/fast", "/courses/fusion", "/courses/advanced", "/classes", "/books", "/institution", "/stories", "/contact"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
